@@ -157,3 +157,28 @@ class TestDemo {
         System.out.println("Total pens created: " + Pen.getPenCount());
     }
 }
+
+OUTPUT
+
+[Pen created: PenID: 1, Color: green, Tip: ballpoint, Brand: Parker, InkLevel: 80%, Capped: true]
+
+Click! Uncapping the pen.
+Writing: 'Hello World' with the green pen.
+Click! Capping the pen.
+Ink level: 69%
+Ink refilled. Current ink level: 99%
+Changing color from green to red.
+[Pen created: PenID: 2, Color: blue, Tip: fountain, Brand: Parker, InkLevel: 90%, Capped: true]
+
+Click! Uncapping the pen.
+Writing: 'Elegant writing' with the blue pen.
+Click! Capping the pen.
+Pen added to box: PenID: 1, Color: red, Tip: ballpoint, Brand: Parker, InkLevel: 99%, Capped: true
+
+Pen added to box: PenID: 2, Color: blue, Tip: fountain, Brand: Parker, InkLevel: 75%, Capped: true
+
+Listing all pens:
+PenID: 1, Color: red, Tip: ballpoint, Brand: Parker, InkLevel: 99%, Capped: true
+PenID: 2, Color: blue, Tip: fountain, Brand: Parker, InkLevel: 75%, Capped: true
+Found pen: PenID: 1, Color: red, Tip: ballpoint, Brand: Parker, InkLevel: 99%, Capped: true
+Total pens created: 2
